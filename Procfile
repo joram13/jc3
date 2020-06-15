@@ -1,1 +1,1 @@
-web: gunicorn jc3.wsgi --log-file -
+web: gunicorn 1:jc3
