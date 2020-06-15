@@ -1,1 +1,1 @@
-web: gunicorn 1:jc3
+web: gunicorn 1:gooo
