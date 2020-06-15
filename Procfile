@@ -1,1 +1,1 @@
-web: gunicorn 1:jc4
+web: gunicorn 1 --log-file -
