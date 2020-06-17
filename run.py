@@ -56,5 +56,10 @@ def create_task():
     tasks.append(task)
     return jsonify({'task': task}), 201
 
+@app.route('/', methods=['GET'])
+def get_tasks():
+    return jsonify({'tasks': tasks}, {'digit sum':' https://polar-meadow-60832.herokuapp.com/juston/challenge/tasks/specific_id_number_of_task'},{'add task': 'http://polar-meadow-60832.herokuapp.com/juston/challenge/task'})
+
+
 if __name__ == '__main__':
     app.run(debug=True)
