@@ -58,7 +58,7 @@ def create_task():
 
 @app.route('/', methods=['GET'])
 def get_tasks():
-    return jsonify({'tasks': tasks}, {'digit sum':' https://challenge-joram.herokuapp.com/juston/challenge/tasks/specific_id_number_of_task'},{'add task': 'http://challenge-joram.herokuapp.com/juston/challenge/task'})
+    return jsonify({'tasks': tasks}, {'digit sum':' https://challenge-joram.herokuapp.com/juston/challenge/tasks/specific_id_number_of_task'},{'add task': 'http://challenge-joram.herokuapp.com/juston/challenge/tasks'})
 
 
 if __name__ == '__main__':
